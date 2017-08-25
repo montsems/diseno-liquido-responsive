@@ -20,28 +20,30 @@ body{
 	font-family: "underwood_champion", monospace;
 	font-weight: bold;
 	background-color:#697159;
-	color: #333;
+	color: black;
 }
 
 .container{
 	width: 80%;
 	max-width: 1000px;
 	margin: 2em auto;
-	background-image: url(../imagenes/papel-fondo.png);
+	background-image: url(../imagenes/3545129509.jpg);
 	background-size: cover;
 	background-repeat:no-repeat;
 	padding: 1em;
+	border: 2px solid #333;
+	border-radius: 20px;
+	box-shadow: 12px 12px 12px #333;
 
-	
 }
 
 h1, h2{
 	font-family: "ArchitectsDaughter", monospace;
 	text-align: center;
-	color: saddlebrown;
+	color: #800000;
 	font-variant: small-caps;
 	font-size: 180%;
-	margin-bottom: 1em;
+	font-weight: bolder;
 }
 
 h1{
@@ -55,7 +57,8 @@ h1{
 }
 
 	.lateral li{
-		padding: .5em;
+		padding: .5em 0;
+		margin-left: 1em;
 	}
 
 .central{
@@ -89,10 +92,51 @@ h1{
 	}
 	.lateral{
 	width: 100%;
+	margin-left: 1em;
 	}
 	
-	.lateral ul{
-		margin: 0 auto;
+	.central{
+	width: 100%;
+	}
+	.columnas li{
+		width: 100%;
+	}
+}
+
+@media (max-width: 650px){
+	.container{
+		width: 90%;
+	}
+	.lateral{
+	width: 100%;
+	}
+	
+	.central{
+	width: 100%;
+	}
+	
+	.columnas li{
+		width: 45%;
+	}
+}
+
+@media print{
+	body{
+		background: none;
+	}
+	.container{
+		background: none;
+	}
+	
+	h1, h2{
+		color: #333;
+	}
+		.container{
+		width: 90%;
+	}
+	.lateral{
+	width: 100%;
+	margin-left: 1em;
 	}
 	
 	.central{
