@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+@font-face{
+	font-family:"underwood_champion";
+	src:url(../fonts/underwood_champion.ttf);
+}
+
+@font-face{
+	font-family:"ArchitectsDaughter";
+	src:url(../fonts/ArchitectsDaughter.ttf);
+}
+
+body{
+	background:;
+	font-family: "underwood_champion", monospace;
+	font-weight: bold;
+	background-color:#697159;
+	color: #333;
+}
+
+.container{
+	width: 80%;
+	max-width: 1000px;
+	margin: 2em auto;
+	background-image: url(../imagenes/papel-fondo.png);
+	background-size: cover;
+	background-repeat:no-repeat;
+	padding: 1em;
+
+	
+}
+
+h1, h2{
+	font-family: "ArchitectsDaughter", monospace;
+	text-align: center;
+	color: saddlebrown;
+	font-variant: small-caps;
+	font-size: 180%;
+	margin-bottom: 1em;
+}
+
+h1{
+	margin-bottom: 1em;
+}
+
+.lateral{
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+	.lateral li{
+		padding: .5em;
+	}
+
+.central{
+	width: 74%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.columnas ul{
+	list-style: none;
+}
+
+	.columnas li{
+		width: 31%;
+		display: inline-block;
+		vertical-align: top;
+		text-indent: 1em;
+		padding: .5em;
+	}
+
+.general{
+	text-indent: 2em;
+	padding:.5em;
+	text-align: justify;
+	
+}
+
+@media (max-width: 470px){
+	.container{
+		width: 90%;
+	}
+	.lateral{
+	width: 100%;
+	}
+	
+	.lateral ul{
+		margin: 0 auto;
+	}
+	
+	.central{
+	width: 100%;
+	}
+	.columnas li{
+		width: 100%;
+	}
+}
