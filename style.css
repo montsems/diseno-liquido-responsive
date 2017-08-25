@@ -19,6 +19,7 @@ body{
 	background:;
 	font-family: "underwood_champion", monospace;
 	font-weight: bold;
+	font-size: 1.1em;
 	background-color:#697159;
 	color: black;
 }
@@ -86,6 +87,50 @@ h1{
 	
 }
 
+@media print{
+	body{
+		background: none;
+	}
+	.container{
+		width: 90%;
+		background: none;
+		border: none;
+	}
+	
+	h1, h2{
+		color: #333;
+	}
+	
+	.lateral{
+	width: 100%;
+	margin-left: 1em;
+	}
+	
+	.central{
+	width: 100%;
+	}
+	.columnas li{
+		width: 100%;
+	}
+}
+
+@media (max-width: 770px){
+	.container{
+		width: 90%;
+	}
+	.lateral{
+	width: 100%;
+	}
+	
+	.central{
+	width: 100%;
+	}
+	
+	.columnas li{
+		width: 45%;
+	}
+}
+
 @media (max-width: 470px){
 	.container{
 		width: 90%;
@@ -103,46 +148,3 @@ h1{
 	}
 }
 
-@media (max-width: 650px){
-	.container{
-		width: 90%;
-	}
-	.lateral{
-	width: 100%;
-	}
-	
-	.central{
-	width: 100%;
-	}
-	
-	.columnas li{
-		width: 45%;
-	}
-}
-
-@media print{
-	body{
-		background: none;
-	}
-	.container{
-		background: none;
-	}
-	
-	h1, h2{
-		color: #333;
-	}
-		.container{
-		width: 90%;
-	}
-	.lateral{
-	width: 100%;
-	margin-left: 1em;
-	}
-	
-	.central{
-	width: 100%;
-	}
-	.columnas li{
-		width: 100%;
-	}
-}
