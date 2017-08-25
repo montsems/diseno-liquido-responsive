@@ -7,12 +7,12 @@
 
 @font-face{
 	font-family:"underwood_champion";
-	src:url(../fonts/underwood_champion.ttf);
+	src:url(fonts/underwood_champion.ttf);
 }
 
 @font-face{
 	font-family:"ArchitectsDaughter";
-	src:url(../fonts/ArchitectsDaughter.ttf);
+	src:url(fonts/ArchitectsDaughter.ttf);
 }
 
 body{
@@ -28,7 +28,7 @@ body{
 	width: 80%;
 	max-width: 1000px;
 	margin: 2em auto;
-	background-image: url(../imagenes/3545129509.jpg);
+	background-image: url(imagenes/3545129509.jpg);
 	background-size: cover;
 	background-repeat:no-repeat;
 	padding: 1em;
