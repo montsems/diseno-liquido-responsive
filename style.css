@@ -4,20 +4,8 @@
 	box-sizing: border-box;
 }
 
-
-@font-face{
-	font-family:"underwood_champion";
-	src:url(fonts/underwood_champion.ttf);
-}
-
-@font-face{
-	font-family:"ArchitectsDaughter";
-	src:url(fonts/ArchitectsDaughter.ttf);
-}
-
 body{
-	background:;
-	font-family: "underwood_champion", monospace;
+	font-family: "Special Elite", monospace;
 	font-weight: bold;
 	font-size: 1.1em;
 	background-color:#697159;
@@ -28,7 +16,7 @@ body{
 	width: 80%;
 	max-width: 1000px;
 	margin: 2em auto;
-	background-image: url(imagenes/3545129509.jpg);
+	background-image: url(http://es.manter.es/upload/producte/3545129509.jpg);
 	background-size: cover;
 	background-repeat:no-repeat;
 	padding: 1em;
@@ -39,7 +27,7 @@ body{
 }
 
 h1, h2{
-	font-family: "ArchitectsDaughter", monospace;
+	font-family: "Permanent Marker", monospace;
 	text-align: center;
 	color: #800000;
 	font-variant: small-caps;
@@ -117,13 +105,14 @@ h1{
 @media (max-width: 770px){
 	.container{
 		width: 90%;
+		margin: 0 auto;
 	}
 	.lateral{
-	width: 100%;
+		width: 100%;
 	}
 	
 	.central{
-	width: 100%;
+		width: 100%;
 	}
 	
 	.columnas li{
@@ -134,14 +123,15 @@ h1{
 @media (max-width: 470px){
 	.container{
 		width: 90%;
+		margin: 0 auto;
 	}
 	.lateral{
-	width: 100%;
-	margin-left: 1em;
+		width: 100%;
+		margin-left: 1em;
 	}
 	
 	.central{
-	width: 100%;
+		width: 100%;
 	}
 	.columnas li{
 		width: 100%;
